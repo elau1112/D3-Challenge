@@ -97,7 +97,7 @@ function renderCircles(circlesGroup, newXScale, newYScale, chosenXAxis, chosenYA
     // circlesGroup) {
     var label; 
     if (chosenXAxis === "poverty") {
-        label = "Poverty:";
+        label = "In Poverty:";
     }
 
     else if (chosenXAxis === "age"){
@@ -110,7 +110,7 @@ function renderCircles(circlesGroup, newXScale, newYScale, chosenXAxis, chosenYA
   
     var labely; 
     if (chosenYAxis === "healthcare") {
-        labely = "Healthcare:";
+        labely = "Lacks Healthcare:";
     }
 
     else if (chosenYAxis === "smokes"){
